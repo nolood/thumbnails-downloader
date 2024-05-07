@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package thumbs;
+
+option go_package = "echelon.thumbs.v1;thumbsv1";
+
+service Downloader {
+  rpc Download(DownloadRequest) returns (DownloadResponse);
+}
+
+
+message DownloadRequest {
+  string url = 1;
+}
+
+message DownloadResponse {
+  string url = 1;
+  string path = 2;
+}
