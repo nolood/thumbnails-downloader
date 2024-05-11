@@ -1,14 +1,7 @@
 # Thumbnails downloader
-
-## Thumbs - прокси-сервер для получения ссылки на скачивание превью с видеороликов youtube
-
-## Cli-thumbs - клиент для взаимодействия с сервисом
-
-## Protos - протофайл и сгенерированные на его основе контракты 
-
 # Запуск
 
-## Thumbs
+## Thumbs - прокси-сервер для получения ссылки на скачивание превью с видеороликов youtube
 ```shell
 git clone git@github.com:nolood/echelon-test.git
 cd echelon-test/thumbs
@@ -16,7 +9,7 @@ go mod tidy
 go run cmd/thumbs/main.go --config=./config/local.yml 
 ```
 
-## Cli-thumbs
+## Cli-thumbs - клиент для взаимодействия с сервисом
 ```shell
 cd ../cli-thumbs
 go mod tidy
