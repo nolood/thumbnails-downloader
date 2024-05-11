@@ -1,0 +1,5 @@
+clients:
+    thumbs:
+        address: "127.0.0.1:44044"
+        timeout: "10s"
+        retries_count: 3

@@ -1,0 +1,4 @@
+.idea
+.vscode
+./thumbs/tmp
+./thumbs/config/local.yml

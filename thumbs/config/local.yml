@@ -1,0 +1,6 @@
+env: "local"
+storage_path: "./storage/thumbs.db"
+youtube_data_api_key: "AIzaSyCKehDbqZdUbFwPOqVBNzlA_D2_5Ohn61k"
+gprc:
+  port: 44044
+  timeout: 10h
